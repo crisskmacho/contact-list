@@ -58,7 +58,7 @@ imprimirContactos();
 borrarContacto(1);
 imprimirContactos();
 
-actualizarContacto(2, { nombres: "Nuevo Nombre", apellidos: "Nuevos Apellidos", telefono: "nuevo número", ubicaciones: ['Bogota, carrera 8A'] });
+actualizarContacto(2, { nombres: "Camila", apellidos: "Nuevos Apellidos", telefono: "nuevo número", ubicaciones: ['Bogota, carrera 8A'] });
 
 // Imprimir la lista de contactos actualizada
 imprimirContactos();
