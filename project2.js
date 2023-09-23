@@ -1,9 +1,9 @@
 // Crear una lista de contactos
 // Crear una lista de contactos
 let listaDeContactos = [
-    { id: 1, nombres: "Juan Camilo", apellidos: "Camacho Barreto", telefono: "3156481684", ubicaciones: [{ ciudad: 'Bogota', direccion: 'carrera 8A' }]},
-    { id: 2, nombres: "Maria Camila", apellidos: "Lopez Treviño", telefono: "2165814684", ubicaciones: [{ ciudad: 'Cali', direccion: 'calle 14' }]},
-    { id: 3, nombres: "Samuel", apellidos: "Paez Granja", telefono: "31897981465", ubicaciones: [{ ciudad: 'Medellin', direccion: 'Bello calle 19' }]},
+    { id: 1, nombres: "Juan Camilo", apellidos: "Camacho Barreto", telefono: 3156481684, ubicaciones: [{ ciudad: 'Bogota', direccion: 'carrera 8A' }]},
+    { id: 2, nombres: "Maria Camila", apellidos: "Lopez Treviño", telefono: 2165814684, ubicaciones: [{ ciudad: 'Cali', direccion: 'calle 14' }]},
+    { id: 3, nombres: "Samuel", apellidos: "Paez Granja", telefono: 31897981465, ubicaciones: [{ ciudad: 'Medellin', direccion: 'Bello calle 19' }]},
   ];
   
   // Función para añadir un nuevo contacto
@@ -35,7 +35,7 @@ let listaDeContactos = [
 
 imprimirContactos();
 
-agregarContacto(4, "Ana", "Gomez", "3159876543", "Barranquilla", "Avenida 123");
+agregarContacto(4, "Ana", "Gomez", 3159876543, "Barranquilla", "Avenida 123");
 imprimirContactos();
 
 borrarContacto(1);
